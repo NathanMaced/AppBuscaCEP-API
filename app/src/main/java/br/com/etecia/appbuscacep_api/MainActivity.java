@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button btnBuscarCep; btnAlterar; btnExcluir; btnLimpar; btnCadastrar;
     EditText txtCep;
-    TextView lblCEP, lblLogradouro, lblComplemento, lblBairro, lblCidade, lblEstado;
+    TextView lblCEP, lblLogradouro, lblComplemento, lblBairro, lblCidade, lblEstado; lblNumero;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         lblBairro = findViewById(R.id.lblBairro);
         lblCidade = findViewById(R.id.lblCidade);
         lblEstado = findViewById(R.id.lblEstado);
+        lblNumero = findViewById(R.id.lblNumero);
         btnBuscarCep = findViewById(R.id.btnBuscaCep);
         btnAlterar = findViewById(R.id.btnAlterar);
         btnExcluir = findViewById(R.id.btnExcluir);
