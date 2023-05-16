@@ -12,7 +12,7 @@ import java.util.concurrent.ExecutionException;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnBuscarCep;
+    Button btnBuscarCep; btnAlterar; btnExcluir; btnLimpar; btnCadastrar;
     EditText txtCep;
     TextView lblCEP, lblLogradouro, lblComplemento, lblBairro, lblCidade, lblEstado;
 
@@ -29,6 +29,10 @@ public class MainActivity extends AppCompatActivity {
         lblCidade = findViewById(R.id.lblCidade);
         lblEstado = findViewById(R.id.lblEstado);
         btnBuscarCep = findViewById(R.id.btnBuscaCep);
+        btnAlterar = findViewById(R.id.btnAlterar);
+        btnExcluir = findViewById(R.id.btnExcluir);
+        btnLimpar = findViewById(R.id.btnLimpar);
+        btnCadastrar = findViewById(R.id.btnCadastrar);
 
         btnBuscarCep.setOnClickListener(new View.OnClickListener() {
             @Override
