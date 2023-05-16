@@ -8,7 +8,6 @@ public class CEP {
     private String bairro;
     private String localidade;
     private String uf;
-
     public String numero;
 
     public CEP() {
